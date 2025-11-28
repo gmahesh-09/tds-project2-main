@@ -1,0 +1,7 @@
+```bash
+curl -X POST http://localhost:7860/solve -H "Content-Type: application/json" -d '{ "email": "test@example.com", "secret": "test-secret", "url": "https://tds-llm-analysis.s-anand.net/demo" }'
+curl -X POST http://localhost:7860/solve -H "Content-Type: application/json" -d '{ "email": "test@example.com", "secret": "test-secret", "url": "https://tdsbasictest.vercel.app/quiz/1" }'
+curl -X POST http://localhost:7860/solve -H "Content-Type: application/json" -d '{ "email": "test@example.com", "secret": "test-secret", "url": "https://tds-llm-analysis.s-anand.net/demo2" }'
+curl -X POST http://localhost:7860/solve -H "Content-Type: application/json" -d '{ "email": "test@example.com", "secret": "test-secret", "url": "https://p2testingone.vercel.app/q1.html" }'
+```
+
